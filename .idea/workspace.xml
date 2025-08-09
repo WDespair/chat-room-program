@@ -9,25 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69a5ad2-8c56-41b2-ada0-55cdf21039a3" name="Changes" comment="注册功能">
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/constant/ChatMysql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/Closeservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/ChatClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/ChatClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/constant/ServerUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/constant/ServerUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/Pollot.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/ReceiveMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/ReceiveMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/SendMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/StartMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/StartMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/ChatServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/ChatServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/constant/CharacterAarray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/getRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/getRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/postRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/postRequest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b69a5ad2-8c56-41b2-ada0-55cdf21039a3" name="Changes" comment="注册功能" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -238,6 +221,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="注册功能" />
