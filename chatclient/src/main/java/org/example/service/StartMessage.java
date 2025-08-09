@@ -6,6 +6,7 @@ import static org.example.service.SendMessage.sendMessage;
 
 public class StartMessage {
     public static void startSend() {
+        System.out.println("Starting Send Message");
         try (Scanner sc = new Scanner(System.in)) {
             while (true) {
                 String message = sc.nextLine();

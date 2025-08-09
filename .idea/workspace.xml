@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="chatserver:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b69a5ad2-8c56-41b2-ada0-55cdf21039a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/constant/ServerUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/constant/TimeSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/Pollot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/ReceiveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/SendMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/StartMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/constant/CharacterAarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/getRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/postRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatserver/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="b69a5ad2-8c56-41b2-ada0-55cdf21039a3" name="Changes" comment="注册功能">
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/constant/ChatMysql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/Closeservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/ChatClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/ChatClientMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/constant/ServerUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/constant/ServerUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/Pollot.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/ReceiveMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/ReceiveMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/SendMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/StartMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatclient/src/main/java/org/example/service/StartMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/ChatServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/ChatServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/constant/CharacterAarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/getRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/getRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/postRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatserver/src/main/java/org/example/service/postRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +43,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WDespair&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WDespair/chat-room-program.git&quot;,
+    &quot;accountId&quot;: &quot;9ddfdde5-ebb4-4878-a4d5-86fcaa4ed4f8&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -47,35 +78,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.chatserver [clean].executor": "Run",
-    "Maven.chatserver [package].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Tomcat Server.Tomcat 10.1.43.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/first-java-program",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Train/chat-room-program/chatclient/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.chatclient [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.chatclient [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.chatserver [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.chatserver [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.43.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Train/first-java-program&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Train/chat-room-program/chatclient/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora&quot;,
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 10.1.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.43" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$/chatserver">
+        <artifact name="chatserver:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/chat" />
           </settings>
-        </file>
+        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="d1862518-dc55-4b2f-a69c-f6e55ba58a90" />
@@ -150,6 +190,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="chatserver:war exploded" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -171,12 +214,34 @@
       <updated>1754062993479</updated>
       <workItem from="1754062994396" duration="2329000" />
       <workItem from="1754101623586" duration="14393000" />
-      <workItem from="1754140458908" duration="6941000" />
+      <workItem from="1754140458908" duration="7528000" />
+      <workItem from="1754204771441" duration="930000" />
+      <workItem from="1754285979593" duration="6943000" />
+      <workItem from="1754310895425" duration="1521000" />
+      <workItem from="1754372336364" duration="8747000" />
+      <workItem from="1754465306248" duration="39742000" />
+      <workItem from="1754588100203" duration="16169000" />
+      <workItem from="1754636506726" duration="14317000" />
+      <workItem from="1754660836963" duration="1704000" />
+      <workItem from="1754671356956" duration="7463000" />
     </task>
+    <task id="LOCAL-00001" summary="注册功能">
+      <option name="closed" value="true" />
+      <created>1754204632347</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754204632347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="注册功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

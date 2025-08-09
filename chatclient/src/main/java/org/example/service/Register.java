@@ -1,40 +1,37 @@
 package org.example.service;
 
-import org.example.ChatClientMain;
-
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLEncoder;
+import java.net.*;
 import java.nio.charset.StandardCharsets;
 
 import static org.example.constant.ServerUrl.CHAT_SERVER_URL;
 
-public class SendMessage {
-    public static void sendMessage(String message) throws IOException {
+public class Register {
+    public static void userRegistered(String id) {
         try {
-            URL url = new URL(CHAT_SERVER_URL + "/send");
+            URL url = new URL(CHAT_SERVER_URL + "/register");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
             connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded;charset=UTF-8");
 
-            String data = "user=" + ChatClientMain.ID + "&message=" + URLEncoder.encode(message, StandardCharsets.UTF_8);
+            String iddata = "user=" + URLEncoder.encode(id, StandardCharsets.UTF_8);
 
             try (OutputStream os = connection.getOutputStream()) {
-                os.write(data.getBytes(StandardCharsets.UTF_8));
+                byte[] bytes = iddata.getBytes(StandardCharsets.UTF_8);
+                os.write(bytes, 0, bytes.length);
             }
 
-            if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
+            if (connection.getResponseCode() == 200) {
 
             } else {
                 System.out.println(connection.getResponseCode());
             }
 
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
         }
     }
 }
