@@ -21,7 +21,6 @@ public class ReceiveMessage {
     public static void receiveMessage(String user) throws IOException {
         try {
             String urlstring = CHAT_SERVER_URL + "?user=" + URLEncoder.encode(user, StandardCharsets.UTF_8);
-//            System.out.println("拼接后的URL字符串：" + urlstring);
             URL url = new URL(urlstring);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
@@ -32,7 +31,7 @@ public class ReceiveMessage {
                     try {
                         String json = reader.readLine();
                         if (json == null || json.trim().isEmpty()) {
-                            System.out.println("没有新消息");
+//                            System.out.println("没有新消息");
                             return;
                         }
                         String[] messages = gson.fromJson(json, String[].class);
